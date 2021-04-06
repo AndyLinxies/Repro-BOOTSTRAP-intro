@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap intro</title>
+    <link rel="stylesheet" href="./public/css/app.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info ">
+        <a class="navbar-brand " href="#">
+            <img src="./public/img/coding-week.jpg" width="40" height="30" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup  ">
+            <div class="navbar-nav">
+            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Link</a>
+            </div>
+        </div>
+        
+    </nav>
+        <div class="container">
+            <img src="./public/img/twitter_bootstrap-wallpaper-1920x1200.jpg " width="100%" height="300px"  alt="">
+        </div>
+    </div>
+    <div class="container bg-light mt-3"> <!--Obligatoire pour row et col. Centre tout et met a 80%-->
+        <div class="row"> <!---->
+            <div class="col-6"> <!--Divise le row en 2. 1ere partie du 1er row-->
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img class="img-fuid" width="100%" src="./public/img/team-1.png" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Nom Prenom</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, ipsum?</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-6"> <!--2e partie du 1er row-->
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img class="img-fluid" src="./public/img/team-2.png" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Nom Prenom</h5>
+                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, rerum!</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6"> <!--premiere partie du 2eme row-->
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img class="img-fluid" src="./public/img/team-3.png" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Nom Prenom</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, necessitatibus?</p>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-6"> <!--2eme partie du 2eme row-->
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img class="img-fluid" src="./public/img/team-4.png" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Nom Prenom</h5>
+                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, perferendis?</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    
+        <div class= "text-white bg-info align-items-center foot" style="height: 250px;"><!--Footer-->
+            <div class="container-fuid pt-5">
+                <div class="row ">
+                    <div class="col-4 text-center">
+                        <h3>Information sur la Coding School</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, aperiam.</p>
+                    </div>
+                    <div class="col-3">
+                        <i class="fab fa-facebook-square fa-3x"></i>
+                        <i class="far fa-envelope-open fa-3x"></i>
+                    </div>
+                    <div class="col-5">
+                        <form class="form-inline w-100">
+                            <p class=" pt-2 mr-1">Newsletter</p>
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-white my-2 my-sm-0 bg-dark text-white" type="submit">Suscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    
+    
+    <!-- jquery -->
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <!-- bootstrap -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
